@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UserFeedBackActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_feedback">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/animalHouseTitle"
+        app:cardCornerRadius="20sp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_suggestion"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:paddingHorizontal="20sp"
+            android:paddingVertical="10dp"
+            android:fontFamily="@font/pop"/>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c1d6d0"
+        android:layout_marginVertical="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="帳號:"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/calibri"/>
+
+        <TextView
+            android:id="@+id/txt_userFeedback_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="帳號:"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:fontFamily="@font/calibri"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="意見與回饋:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:gravity="start"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/calibri"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <EditText
+            android:id="@+id/edit_userFeedback_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="請留下使用回饋"
+            android:inputType="textMultiLine"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_userFeedback_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="送出"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_select_orange"/>
+
+</LinearLayout>

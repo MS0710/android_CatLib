@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "414142375341",
+    "firebase_url": "https://catlib-dbf2b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "catlib-dbf2b",
+    "storage_bucket": "catlib-dbf2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414142375341:android:84664a9bd63b5c8ebc2d24",
+        "android_client_info": {
+          "package_name": "com.example.catlib_0612"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7SIzrMuYuLpv2Pvjc-WgOVbvuKLMqEuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

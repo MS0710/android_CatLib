@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/ectoparasiticideOutLineColor"
+        app:cardCornerRadius="10dp"
+        android:padding="3dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/txt_catPatternItem_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="【黑貓－最懂你的心】"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/txt_catPatternItem_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/animal_pattern_1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageView
+                android:id="@+id/img_catPatternItem_picture"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pattern_1"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
